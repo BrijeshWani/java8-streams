@@ -27,6 +27,8 @@ public class StreamsIterator {
 		// Skip method
 		List<String> skippedList = listOfString.stream().skip(2).collect(Collectors.toList());
 		System.out.println("Skipped list: " + skippedList);
+		
+		//Skip and limit
 		List<String> skippedAndLimitedList = listOfString.stream().skip(1).limit(2).collect(Collectors.toList());
 		System.out.println("Skipped and limi list: " + skippedAndLimitedList);
 
